@@ -10,4 +10,6 @@ function Person(properties) {
 }
 
 // TODO: How do we expose the constructor AS the module?
-CHANGE.ME = Person;
+// CHANGE.ME = Person;
+
+module.exports = Person;
