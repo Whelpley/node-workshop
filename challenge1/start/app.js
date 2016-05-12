@@ -22,7 +22,9 @@ http.createServer(function(request, response) {
 
 }).listen(3000);
 
-/* http.createServer(function(request, response) {
+/* Original Code:
+
+http.createServer(function(request, response) {
 
     // TODO: Find the ASYNCHRONOUS, NON-BLOCKING API for reading in a file.
     fs.CHANGE_ME('./data.csv', 'utf-8', function(err, data) {
