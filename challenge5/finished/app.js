@@ -1,5 +1,5 @@
-var express = require('express'), 
-    http = require('http'), 
+var express = require('express'),
+    http = require('http'),
     path = require('path')
     io = require('socket.io');
 
@@ -24,7 +24,7 @@ var io = require('socket.io').listen(server);
 
 // Handle socket traffic
 io.sockets.on('connection', function (socket) {
-    
+    {}
     // Set the nickname property for a given client
     socket.on('nick', function(nick) {
         socket.set('nickname', nick);
