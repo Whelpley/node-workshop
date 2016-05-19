@@ -1,3 +1,5 @@
+// This does not work like the Finished example - does not print the results of the chat to screen
+
 var express = require('express'),
     http = require('http'),
     path = require('path')
